@@ -1,0 +1,26 @@
+
+@media screen and (max-width: 930px){
+    
+    .part{
+        display: block;
+    }
+    .sidebar{
+        width: 100%;
+        padding-left: 3em;
+    }
+    
+}
+@media screen and (max-width: 550px){
+    .picture{
+        display: none;
+        width: 0%;
+    }
+    .resume, .main, .sidebar{
+        width: 100%;
+    }
+    .main, .sidebar{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+}
